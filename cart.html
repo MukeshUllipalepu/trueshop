@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cart - TrueShop</title>
+  <link rel="stylesheet" href="/src/styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="nav-content">
+        <a href="/" class="logo">
+          <span class="logo-text">TrueShop</span>
+        </a>
+        
+        <div class="search-bar">
+          <input type="text" placeholder="Search products..." />
+          <button class="search-button">Search</button>
+        </div>
+
+        <div class="nav-links">
+          <a href="/cart" class="cart-link">
+            Cart
+            <span class="cart-count">3</span>
+          </a>
+          <a href="/login" class="login-link">Login</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="cart-page">
+    <div class="container">
+      <h1 class="page-title">Shopping Cart</h1>
+      
+      <div class="cart-container">
+        <div class="cart-items">
+          <div class="cart-item">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&q=80&w=500" alt="Wireless Headphones" />
+            <div class="item-details">
+              <h3>Wireless Headphones</h3>
+              <p class="price">$99.99</p>
+            </div>
+            <div class="quantity-controls">
+              <button class="quantity-btn">-</button>
+              <span class="quantity">1</span>
+              <button class="quantity-btn">+</button>
+            </div>
+            <button class="remove-btn">Remove</button>
+          </div>
+
+          <div class="cart-item">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&q=80&w=500" alt="Smart Watch" />
+            <div class="item-details">
+              <h3>Smart Watch</h3>
+              <p class="price">$199.99</p>
+            </div>
+            <div class="quantity-controls">
+              <button class="quantity-btn">-</button>
+              <span class="quantity">1</span>
+              <button class="quantity-btn">+</button>
+            </div>
+            <button class="remove-btn">Remove</button>
+          </div>
+
+          <div class="cart-item">
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=500" alt="Running Shoes" />
+            <div class="item-details">
+              <h3>Running Shoes</h3>
+              <p class="price">$79.99</p>
+            </div>
+            <div class="quantity-controls">
+              <button class="quantity-btn">-</button>
+              <span class="quantity">1</span>
+              <button class="quantity-btn">+</button>
+            </div>
+            <button class="remove-btn">Remove</button>
+          </div>
+        </div>
+
+        <div class="cart-summary">
+          <h2>Order Summary</h2>
+          <div class="summary-row">
+            <span>Subtotal</span>
+            <span>$379.97</span>
+          </div>
+          <div class="summary-row">
+            <span>Shipping</span>
+            <span>Free</span>
+          </div>
+          <div class="summary-row total">
+            <span>Total</span>
+            <span>$379.97</span>
+          </div>
+          <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>About TrueShop</h4>
+          <p>Your one-stop destination for all your shopping needs.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Shipping Policy</a></li>
+            <li><a href="#">Returns</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <p>Email: support@trueshop.com</p>
+          <p>Phone: (555) 123-4567</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 TrueShop. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
